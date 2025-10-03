@@ -12,5 +12,5 @@ jobs:
         uses: actions/checkout@v4
 
       # 👇 IMPORTANT: replace with the EXACT email shown in your instruction
-      - name: 24ds300004@ds.study.iitm.ac.in
+      - name: 24ds3000040@ds.study.iitm.ac.in
         run: echo "Hello, world!"
