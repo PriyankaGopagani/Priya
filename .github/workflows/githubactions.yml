@@ -1,0 +1,16 @@
+name: Email Step Demo
+
+on:
+  workflow_dispatch:    # allows a manual "Run workflow" button
+  push:                 # also runs on pushes to the repo
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 👇 IMPORTANT: replace with the EXACT email shown in your instruction
+      - name: 24ds300004@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
